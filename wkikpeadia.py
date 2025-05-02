@@ -1,10 +1,7 @@
 import streamlit as st
 import wikipedia
 from langchain.llms import HuggingFaceHub
-from dotenv import load_dotenv
-import os
-load_dotenv()
-api_token = os.getenv('HUGGINGFACEHUB_API_TOKEN')
+api_token = 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
 
 llm = HuggingFaceHub(
     repo_id="deepseek-ai/deepseek-coder-6.7b-instruct",
