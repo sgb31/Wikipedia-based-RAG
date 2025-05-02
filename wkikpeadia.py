@@ -1,7 +1,7 @@
 import streamlit as st
 import wikipedia
 from langchain.llms import HuggingFaceHub
-api_token = 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
+api_token = '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'
 
 llm = HuggingFaceHub(
     repo_id="deepseek-ai/deepseek-coder-6.7b-instruct",
